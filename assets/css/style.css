@@ -24,8 +24,17 @@ background-color: #2b0075;
     color: black;
 }
 
+
+@media screen and (min-width : 770px){
+ 
+  #cursos2 {
+    display: none;
+  }
+
+}
+
 @media screen and (max-width: 770px) {
-    #form {
+    #cursos1 {
       display: none;
     }
 
